@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="code.js"></script>
+</head>
+<body onload="rb()">
+
+<div class="container">
+  <h2>Faça seu quiz</h2>
+  <p><div id="perg"></div></p>
+  <form action="" >
+    <div class="form-check">
+      <label class="form-check-label" for="radio1">
+        <input type="radio" class="form-check-input" id="radio1" name="optradio" value="a"><div id="rd1"></div>
+      </label>
+    </div>
+    <div class="form-check">
+      <label class="form-check-label" for="radio2">
+        <input type="radio" class="form-check-input" id="radio2" name="optradio" value="b"><div id="rd2"></div>
+      </label>
+    </div>
+    <div class="form-check">
+      <label class="form-check-label" for="radio3">
+        <input type="radio" class="form-check-input" id="radio3" name="optradio" value="c"><div id="rd3"></div>
+      </label>
+    </div>
+    <div class="form-check">
+        <label class="form-check-label" for="radio3">
+          <input type="radio" class="form-check-input" id="radio3" name="optradio" value="d"><div id="rd4"></div>
+        </label>
+      </div>
+    <button type="text" class="btn btn-primary" onclick="vresp()">verificar</button>
+    <button type="submit" class="btn btn-primary">voltar</button>
+    <button type="submit" class="btn btn-primary">próximo</button>
+  </form>
+</div>
+
+</body>
+</html>
